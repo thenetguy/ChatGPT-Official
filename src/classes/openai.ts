@@ -48,7 +48,7 @@ class OpenAI {
 			stop: options?.stop || "<|im_end|>",
 			aiName: options?.aiName || "ChatGPT",
 			moderation: options?.moderation || false,
-			endpoint: options?.endpoint || "https://api.openai.com/v1/completions",
+			endpoint: options?.endpoint || "https://api.fervorai.com/v1/completions",
 			price: options?.price || 0.02,
 			max_conversation_tokens: options?.max_conversation_tokens || 4097,
 		};
